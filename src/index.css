@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* .banner {
+  clip-path: polygon(50% 0%, 100% 0, 85% 66%, 75% 100%, 0 98%, 0 58%, 0 0);
+} */
+
+/* :root {
+  --background: white;
+  --text-primary: black;
+  --text-secondary: royalblue;
+  --accent: purple;
+}
+[data-theme="dark"] {
+  --background: black;
+  --text-primary: white;
+  --text-secondary: grey;
+  --accent: darkred;
+}
+
+
+body {
+  background-color: #ffffff;
+  color: #000000;
+} */
+
+/* Dark mode */
+/* body.dark-mode {
+  background-color: #333333;
+  color: #ffffff;
+}  */
