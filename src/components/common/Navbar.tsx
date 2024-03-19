@@ -55,7 +55,10 @@ const Navbar = () => {
     <div className="border-b-2 dark:border-gray-800 shadow-md py-3 sticky top-0 z-20 bg-white dark:bg-black">
       <Container className="flex items-center justify-between ">
         <Link to={"/"}>
-          <img src={logo} alt="" className="w-44 " />
+        <div className="flex items-center justify-between">
+          <img src={logo} alt="" className="w-10 h-10 " />
+          <h1 className="text-2xl font-bold text-green-600">Food Management</h1>
+          </div>
         </Link>
         <div className="hidden md:block dark:text-white">
           <div className="flex items-center gap-8 ">
